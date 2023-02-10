@@ -8,6 +8,7 @@ services:
     depends_on:
       - mongo
     build: .
+    image: charlied0cker/node_app
     environment:
       - PORT=3000
   mongo:
